@@ -1,0 +1,74 @@
+.cardWrapper {
+  margin: 0 8px 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardBody {
+  cursor: pointer;
+  width: 200px;
+  heigth: 200px;
+}
+
+.cardFooter {
+  text-align: center;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.btn {
+  transition: background-color .3s;
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 25px;
+  line-height: 25px;
+  padding: 0 12px;
+  border-radius: 3px;
+  color: black;
+  box-shadow: inset 0 0 0 1px #9e9e9e;
+  font-family: roboto;
+  background-color: green;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover:not(.disabled) {
+  color: #fff;
+  background-color: #9e9e9e;
+}
+
+.wrap {
+  background-color: #F8F8F8;
+  position: fixed;
+  width: 75vw;
+  height: 75vh;
+  top: 10%;
+  left: 15%;
+  z-index: 2;
+  transition: width 0.1s ease-in-out;
+  border: 1px solid #F8F8F8;
+  box-shadow: 4px solid black;
+  display: flex;
+}
+
+.image {
+  width: 300px;
+  height: 500px;
+  margin: 50px;
+}
+
+.text {
+  font-size: 20px;
+  margin: 16px;
+}
+
+.detailsWrapper {
+  padding: 40px;
+}
+
+.added {
+  background-color: red;
+}

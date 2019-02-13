@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card render Deve renderizar corretamente 1`] = `
+<div
+  className="cardWrapper"
+>
+  <img
+    alt="imagem"
+    className="cardBody"
+    onClick={[Function]}
+  />
+  <div
+    className="cardFooter"
+  >
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      Adicionar
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Card render Deve renderizar corretamente aberto 1`] = `
+<div
+  className="cardWrapper"
+>
+  <img
+    alt="imagem"
+    className="cardBody"
+    onClick={[Function]}
+  />
+  <CardDetails
+    artist="murtinha"
+    flavor="Card flavor"
+    manaCost="0"
+    name="Black Lotus"
+    onClose={[Function]}
+    rarity="Rare"
+    setName="Magic collection"
+    text="Card text"
+    type="Artifact"
+  />
+  <div
+    className="cardFooter"
+  >
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      Adicionar
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Card render Deve renderizar corretamente adicionado 1`] = `
+<div
+  className="cardWrapper"
+>
+  <img
+    alt="imagem"
+    className="cardBody"
+    onClick={[Function]}
+  />
+  <div
+    className="cardFooter"
+  >
+    <button
+      className="btn added"
+      onClick={[Function]}
+    >
+      Remover
+    </button>
+  </div>
+</div>
+`;

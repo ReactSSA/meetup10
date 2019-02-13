@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> render Deve renderizar corretamente 1`] = `
+<div
+  className="appWrapper"
+>
+  <div
+    className="appHeader"
+  >
+    MONTE SEU DECK DE COMMANDER!
+    <span
+      className="icon"
+      onClick={[Function]}
+    >
+      Meu deck: 
+      0
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<App /> render Deve renderizar corretamente com aberto 1`] = `
+<div
+  className="appWrapper"
+>
+  <div
+    className="appHeader"
+  >
+    MONTE SEU DECK DE COMMANDER!
+    <span
+      className="icon"
+      onClick={[Function]}
+    >
+      Meu deck: 
+      4
+    </span>
+  </div>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="deck"
+      key="0"
+    >
+       - 
+      Black Lotus
+       
+    </div>
+    <div
+      className="deck"
+      key="1"
+    >
+       - 
+      Forest
+       
+    </div>
+    <div
+      className="deck"
+      key="2"
+    >
+       - 
+      Swamp
+       
+    </div>
+    <div
+      className="deck"
+      key="3"
+    >
+       - 
+      Island
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<App /> render Deve renderizar corretamente com cartas 1`] = `
+<div
+  className="appWrapper"
+>
+  <div
+    className="appHeader"
+  >
+    MONTE SEU DECK DE COMMANDER!
+    <span
+      className="icon"
+      onClick={[Function]}
+    >
+      Meu deck: 
+      0
+    </span>
+  </div>
+  <Card
+    card={
+      Object {
+        "artist": "murtinha",
+        "flavor": "Card flavor",
+        "id": 1,
+        "image": "path/imagem.png",
+        "manaCost": "0",
+        "name": "Black Lotus",
+        "rarity": "Rare",
+        "setName": "Magic collection",
+        "text": "Card text",
+        "type": "Artifact",
+      }
+    }
+    key="0"
+    onAdd={[Function]}
+    onRemove={[Function]}
+  />
+  <Card
+    card={
+      Object {
+        "artist": "murtinha2",
+        "flavor": "Card flavor 2",
+        "id": 2,
+        "image": "path/imagem2.png",
+        "manaCost": "B2G",
+        "name": "Bufao",
+        "rarity": "Legend",
+        "setName": "Magic collection 2",
+        "text": "Card text 2",
+        "type": "Creature",
+      }
+    }
+    key="1"
+    onAdd={[Function]}
+    onRemove={[Function]}
+  />
+  <Card
+    card={
+      Object {
+        "artist": "murtinha3",
+        "flavor": "Card flavor 3",
+        "id": 3,
+        "image": "path/imagem3.png",
+        "manaCost": "",
+        "name": "Forest",
+        "rarity": "Basic",
+        "setName": "Magic collection 3",
+        "text": "Card text 3",
+        "type": "Land",
+      }
+    }
+    key="2"
+    onAdd={[Function]}
+    onRemove={[Function]}
+  />
+  <Card
+    card={
+      Object {
+        "artist": "murtinha4",
+        "flavor": "Card flavor 4",
+        "id": 4,
+        "image": "path/imagem4.png",
+        "manaCost": "",
+        "name": "Swamp",
+        "rarity": "Basic",
+        "setName": "Magic collection 4",
+        "text": "Card text 4",
+        "type": "Land",
+      }
+    }
+    key="3"
+    onAdd={[Function]}
+    onRemove={[Function]}
+  />
+  <Card
+    card={
+      Object {
+        "artist": "murtinha5",
+        "flavor": "Card flavor 5",
+        "id": 5,
+        "image": "path/imagem5.png",
+        "manaCost": "",
+        "name": "Island",
+        "rarity": "Basic",
+        "setName": "Magic collection 5",
+        "text": "Card text 5",
+        "type": "Land",
+      }
+    }
+    key="4"
+    onAdd={[Function]}
+    onRemove={[Function]}
+  />
+</div>
+`;

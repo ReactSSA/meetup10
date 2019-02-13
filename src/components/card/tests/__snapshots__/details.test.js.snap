@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardDetails render Deve renderizar corretamente 1`] = `
+<div
+  className="wrap"
+  onClick={[MockFunction]}
+>
+  <img
+    alt="imagem"
+    className="image"
+    src="path/imagem.png"
+  />
+  <div
+    className="detailsWrapper"
+  >
+    <div
+      className="text"
+    >
+       Nome: 
+      Black Lotus
+       
+    </div>
+    <div
+      className="text"
+    >
+       Custo de mana: 
+      0
+       
+    </div>
+    <div
+      className="text"
+    >
+       Tipo: 
+      Artifact
+       
+    </div>
+    <div
+      className="text"
+    >
+       Raridade: 
+      Rare
+       
+    </div>
+    <div
+      className="text"
+    >
+       Coleção: 
+      Magic collection
+       
+    </div>
+    <div
+      className="text"
+    >
+       Texto: 
+      Card text
+       
+    </div>
+    <div
+      className="text"
+    >
+       Descrição: 
+      Card flavor
+       
+    </div>
+    <div
+      className="text"
+    >
+       Artista: 
+      murtinha
+       
+    </div>
+  </div>
+</div>
+`;

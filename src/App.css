@@ -1,0 +1,47 @@
+.wrapper {
+  background-color: #F8F8F8;
+  position: fixed;
+  width: 40vw;
+  height: 40vh;
+  top: 8%;
+  right: 6%;
+  z-index: 2;
+  transition: width 0.1s ease-in-out;
+  border: 1px solid #F8F8F8;
+  box-shadow: 4px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.appWrapper {
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.deck {
+  padding: 4px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.deck:hover {
+  text-decoration: underline;
+}
+
+.appHeader {
+  padding: 8px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.icon {
+  cursor: pointer;
+  float: right;
+  font-size: 25px;
+}
+
+
